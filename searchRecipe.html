@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPE  APP</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img src="https://www.shutterstock.com/image-photo/food-background-spices-herbs-utensil-260nw-2255294293.jpg" alt="homepageimage">
+    <div class="container">
+        <h1>Find Recipes by Ingredients</h1>
+        <div class="search-container">
+            <nav>
+                <a href="searchRecipe.html">  SEARCH </a>
+                <a href="breakfast.html"> BreakFast</a>
+               <a href="lunch.html">Lunch</a>
+               <a href="dinner.html">  Dinner </a>
+                <a href="dessert.html"> Dessert </a>
+             
+            </nav>
+            <input type="text" id="ingredientsInput" placeholder="
+            Search-ingredients ">
+            <button onclick="searchRecipes()">Search</button>
+        </div>
+        <div id="recipesContainer"></div>
+    </div>
+    <script src="searchRecipe.js"></script>
+</body>
+</html>
